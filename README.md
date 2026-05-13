@@ -52,6 +52,28 @@ Two models consistent with the same vanilla option information can produce diffe
 
 This is because barrier options are path-dependent: their value depends on the full trajectory of the underlying, not only on the terminal distribution.
 
+## Selected Outputs
+
+### Reconstructed Implied Volatility Surface
+
+![Reconstructed implied volatility surface](figures/reconstructed_iv_surface.png)
+
+### Implied Volatility Reconstruction Error
+
+![IV reconstruction error surface](figures/iv_reconstruction_error_surface.png)
+
+### Spot Stress P&L
+
+![Spot stress P&L](figures/spot_stress_pnl.png)
+
+### Delta-Gamma P&L Attribution
+
+![Delta-Gamma P&L attribution](figures/delta_gamma_pnl_attribution.png)
+
+### Knock-Out Probability Monitoring
+
+![Barrier stress knock-out probability](figures/barrier_stress_knockout_probability.png)
+
 ## Repository Structure
 
 - notebooks/ : main research notebook
